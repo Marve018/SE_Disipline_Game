@@ -65,7 +65,7 @@ both the if and elif return false so their blocks can't execute.
 Conditional expressions involve comparisons and logical operations to create conditions for decision-making in programming.
 They are very essential to the flow of conditional statements and they include
 
-. COMPARISIM OPERATORS:
+. COMPARISON OPERATORS:
 Comparison operators are used to compare values and create conditions. They return either True or False based on the comparison.
 
 Equal to (==): Returns True if two values are equal.
