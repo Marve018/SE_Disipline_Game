@@ -46,3 +46,38 @@ else:
     # code block to execute if all conditions are false
 
 ```
+## DAY 3
+### EXAMPLE OF CONDITIONAL STATEMENTS
+```
+x = 10
+
+if x > 15:
+    print("x is greater than 15")
+elif x > 10:
+    print("x is greater than 10 but not greater than 15")
+else:
+    print("x is 10 or less")
+```
+The examples show both the if, else and elif statements at work. In this example it is the else block that will run cause
+both the if and elif return false so their blocks can't execute.
+
+###  CONDITIONAL EXPRESSIONS:
+Conditional expressions involve comparisons and logical operations to create conditions for decision-making in programming.
+They are very essential to the flow of conditional statements and they include
+
+. COMPARISIM OPERATORS:
+Comparison operators are used to compare values and create conditions. They return either True or False based on the comparison.
+
+Equal to (==): Returns True if two values are equal.
+Not equal to (!=): Returns True if two values are not equal.
+Greater than (>): Returns True if the left operand is greater than the right operand.
+Less than (<): Returns True if the left operand is less than the right operand.
+Greater than or equal to (>=): Returns True if the left operand is greater than or equal to the right operand.
+Less than or equal to (<=): Returns True if the left operand is less than or equal to the right operand.
+
+. LOGICAL OPERATORS:
+Logical operators are used to combine multiple conditions and create complex conditions.
+
+AND (and): Returns True if both conditions on its left and right sides are true.
+OR (or): Returns True if at least one of the conditions on its left and right sides is true.
+NOT (not): Returns the opposite boolean value of the condition. If the condition is True, returns False, and vice versa.
