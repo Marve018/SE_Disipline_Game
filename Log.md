@@ -142,8 +142,11 @@ continue Statement: Skips the rest of the code inside a loop for the current ite
 
 pass Statement: Acts as a placeholder and does nothing when executed. It is commonly used when a statement is syntactically required but no action is needed.
 
+### day_4.py results
 ```
-See example in day_4.py
+./day_4.py
+Enter the student's score: 85
+The student's grade is: B
 ```
 
 The loops constructs and control statements are crucial with conditional statements especially when writing complex code.
