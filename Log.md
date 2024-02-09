@@ -81,3 +81,67 @@ Logical operators are used to combine multiple conditions and create complex con
 AND (and): Returns True if both conditions on its left and right sides are true.
 OR (or): Returns True if at least one of the conditions on its left and right sides is true.
 NOT (not): Returns the opposite boolean value of the condition. If the condition is True, returns False, and vice versa.
+
+## DAY 4
+### EXAMPLE WITH CONDITIONAL EXPRESSIONS
+```
+x = 10
+y = 5
+
+# Using comparison operators
+if x > y:
+    print("x is greater than y")
+
+# Using logical operators
+if x > 5 and y < 10:
+    print("Both conditions are true")
+
+# Nested conditions
+if x > 5:
+    if y < 10:
+        print("Nested conditions: Both conditions are true")
+
+# Combining comparison and logical operators
+if x > 5 or y > 10:
+    print("At least one condition is true")
+
+```
+In the provided example:
+
+Comparison operators (>, <) are used to create conditions for decision-making.
+Logical operators (and, or) are used to combine multiple conditions.
+Nested conditions are used for more complex decision-making scenarios.
+
+### FLOW CONTROL
+Looping Constructs:
+
+1. Looping constructs allow you to repeat a block of code multiple times. There are two main types of loops:
+
+for Loops: You use a "for" loop to iterate over a sequence (e.g., list, tuple, string) and execute a block of code for each item in the sequence.
+
+while Loops: You use a "while" loop to repeatedly execute a block of code as long as a specified condition is true.
+
+```
+# for loop
+for item in sequence:
+    # code block to execute for each item
+
+# while loop
+while condition:
+    # code block to execute while condition is true
+
+```
+
+2. Control Statements:
+
+Control statements allow you to alter the normal flow of execution within loops and conditional statements.
+
+break Statement: Terminates the loop it is in and transfers control to the statement immediately following the loop.
+
+continue Statement: Skips the rest of the code inside a loop for the current iteration and continues with the next iteration.
+
+pass Statement: Acts as a placeholder and does nothing when executed. It is commonly used when a statement is syntactically required but no action is needed.
+
+```
+See example in day_3.py
+```
