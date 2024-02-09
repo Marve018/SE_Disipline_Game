@@ -145,3 +145,5 @@ pass Statement: Acts as a placeholder and does nothing when executed. It is comm
 ```
 See example in day_3.py
 ```
+
+The loops constructs and control statements are crucial with conditional statements especially when writing complex code.
