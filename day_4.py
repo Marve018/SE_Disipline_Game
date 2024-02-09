@@ -29,6 +29,7 @@ while True:
     except ValueError:
         print("Invalid input. Please enter a number.")
 
+
 # Calculating and displaying the grade
 grade = calculate_grade(score)
 print(f"The student's grade is: {grade}")
